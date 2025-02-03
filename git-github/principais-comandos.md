@@ -26,4 +26,5 @@
 
 # Anotações extras
 - **git init x git remote add origin**: o comando git init cria um novo repositório Git, enquanto o comando git remote add origin adiciona um repositório remoto no GitHub;
-- **git add x git commit**: o git add é similar ao comando commit, mas não commita as mudanças. O commit confirma os arquivos adicionados e cria uma nova revisão. 
+- **git add x git commit**: o git add é similar ao comando commit, mas não commita as mudanças. O commit confirma os arquivos adicionados e cria uma nova revisão;
+- **arquivos .git em diretórios**: caso faça git init em um diretório do repositório, esta pasta não poderá ser acessada no github. Por isso, certifique-se de inicializar o git no caminho do repositório, não em uma de suas pastas.  
