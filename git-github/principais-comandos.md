@@ -22,9 +22,16 @@
 - **git commit**
     - **-m "[*mensagem-descritiva*]"**: insere uma mensagem ao commitar os arquivos de um repositório (enviar as alterações do repositório local para o repositório Git)
 - **git push**: insere os arquivos e atualizações do repositório no github
-    - **--set-upstream origin [*nome-branch*]**: conecta o repositório local à branch no github 
+    - **--set-upstream origin [*nome-branch*]**: conecta o repositório local à branch no github
+- **git checkout**
+    - **-b [*nome-branch*]**: cria e migra para uma nova branch
+    - **[*nome-branch*]**: migra para a branch desejada
+- **git branch**: lista as branches existentes
+- **git merge [*nome-branch*]**: incorpora os arquivos da branch desejada na branch atual, unindo-as em uma só branch
 
 # Anotações extras
 - **git init x git remote add origin**: o comando git init cria um novo repositório Git, enquanto o comando git remote add origin adiciona um repositório remoto no GitHub;
 - **git add x git commit**: o git add é similar ao comando commit, mas não commita as mudanças. O commit confirma os arquivos adicionados e cria uma nova revisão;
-- **arquivos .git em diretórios**: caso faça git init em um diretório do repositório, esta pasta não poderá ser acessada no github. Por isso, certifique-se de inicializar o git no caminho do repositório, não em uma de suas pastas.  
+- **arquivos .git em diretórios**: caso faça git init em um diretório do repositório, esta pasta não poderá ser acessada no github. Por isso, certifique-se de inicializar o git no caminho do repositório, não em uma de suas pastas;
+- **git merge e commits**: para garantir a efetividade da junção de duas branches, recomenda-se commitar todas as alterações de cada uma separadamente antes de utilizar o comando git merge. Além disso, fazer um merge também é considerado uma alteração a ser commitada em ambas as branches.
+
