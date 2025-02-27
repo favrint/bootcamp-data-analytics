@@ -452,3 +452,7 @@ array([[2, 3],
 array([[0, 2, 4, 6, 8],
         [5, 7, 9, 11, 13]])
 ```
+
+### Para saber mais
+##### [Material-base das aulas gravadas](https://colab.research.google.com/drive/1By8vdCZ7MeGrLqJfJK3l03iuN-pXM7Xe?usp=sharing)
+##### [Material-base da aula de revisão](https://colab.research.google.com/drive/1YjETH6p5u_CDfOOJl9o5Y5ncTV7nbUVi#scrollTo=q_h7b0p0z7Jt)
